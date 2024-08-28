@@ -100,22 +100,19 @@
             return;
         }
 
-        // Playback speeds
-        if (code === KEYCODES.SPEEDUP) {
-            speedup = !speedup;
-
-            if (speedup) {
-                video.playbackRate = 2;
-            } else {
-                video.playbackRate = 1;
-            }
-
-            // If ctrl is being pressed turn to x3 speed
+         // Playback speeds 
+         if (code === KEYCODES.SPEEDUP) {
             if (ctrlKey) {
-                video.playbackRate = 3;
-                speedup = true;
+                // Decrease speed by 0.5 increments by pressing ` + ctrl
+                if (video.playbackRate > 0.5) {
+                    video.playbackRate = video.playbackRate - 0.5
+                } 
+            } else {
+                // Increase speed by 0.5 increments by pressing `
+                if (video.playbackRate < 4) {
+                    video.playbackRate = video.playbackRate + 0.5
+                }
             }
-
             displayText(video.playbackRate, mediaElement);
         }
 
