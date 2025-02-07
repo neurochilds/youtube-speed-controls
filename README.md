@@ -4,5 +4,5 @@
 
 ## Overview
 
-Click <code>&#96;</code> (the grave accent key) to increase speed by 0.5x increments, or <code>ctrl + &#96;</code> to decrease speed by 0.5x incremeents.
+Click <code>&#96;</code> (the grave accent key) to increase speed by 0.5x increments, or <code>ctrl + &#96;</code> to decrease speed by 0.5x increments.
 The minimum playback speed is 0.5x and the maximum is 4x.
