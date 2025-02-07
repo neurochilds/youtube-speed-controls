@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
 
-    "name": "YouTube Speed Controls",
-    "description": "Click ` (the grave accent key) to flick between normal and 2x speed, or ctrl + ` to play at 3x speed.",
+    "name": "YouTube Speed Controls Mine",
+    "description": "Click ` (the grave accent key) to increase playback speed by 0.5x increments, or ctrl + ` to decrease.",
     "version": "1.3",
     
     "content_scripts": [
