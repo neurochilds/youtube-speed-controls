@@ -4,5 +4,12 @@
 
 ## Overview
 
-Click <code>&#96;</code> (the grave accent key) to increase speed by 0.5x increments, or <code>ctrl + &#96;</code> to decrease speed by 0.5x increments.
-The minimum playback speed is 0.5x and the maximum is 4x.
+Control the speed of YouTube videos using the <code>&#96;</code> (grave accent) key. Supports speeds from 0.5x to 20x.
+
+Speed steps: 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 7, 8, 10, 20
+
+## Usage
+
+- Press <code>&#96;</code> to increase playback speed to the next step
+- Press <code>ctrl + &#96;</code> to decrease playback speed to the previous step
+- Press <code>0-9</code> to seek to that percentage of the video (e.g. <code>3</code> = 30%)
